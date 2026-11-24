@@ -1,0 +1,11 @@
+{
+  "name": "mahesh-sharma-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CSV-driven, browser-based teacher website for Mahesh Sharma (Art of Living).",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test tests/"
+  }
+}

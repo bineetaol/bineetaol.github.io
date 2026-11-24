@@ -1,0 +1,34 @@
+key,value,notes
+teacher_name,Mahesh Sharma,Shown in nav / hero / footer
+role,Art of Living Teacher,Short title under the name
+page_title,Mahesh Sharma | Art of Living Teacher,Browser tab title
+meta_description,"Upcoming Art of Living programs, meditation and yoga sessions with Mahesh Sharma.",SEO description
+hero_eyebrow,Meet Mahesh Sharma,Small line above the main heading
+hero_heading,,Main hero heading (placeholder until provided)
+hero_subtitle,Art of Living Teacher,Line under the hero heading
+hero_image,https://artofliving.online/sites/artofliving.online/files/civicrm/custom/teachers/GJ0048.jpeg,Hero / profile photo URL
+about_heading,About Mahesh Sharma,
+about_text,,Biography paragraph (placeholder until provided)
+about_image,https://artofliving.online/sites/artofliving.online/files/civicrm/custom/teachers/GJ0048.jpeg,
+about_photos_url,,Link to downloadable official photos
+stats_heading,The Journey So Far,
+journey_heading,A Journey with the Master,
+journey_text,,Intro text for the journey gallery
+highlights_heading,Moments from the Programs,
+highlights_text,,Intro text for the highlights grid
+courses_heading,Upcoming Programs,
+courses_text,"Breathing techniques, meditation and practical wisdom for daily life.",
+courses_source_url,https://www.artofliving.org/in-en/t/mahesh-sharma,Where course data was taken from
+journal_heading,The Inner Journal,
+journal_text,Reflections and wisdom shared by Mahesh Sharma,
+whatsapp_channel_url,,WhatsApp channel link for daily wisdom
+media_heading,Listen to Mahesh Sharma,
+media_text,"Wisdom talks, meditation insights and timeless teachings.",
+youtube_channel_url,,"YouTube channel link (""View more"" button)"
+instagram_profile_url,https://www.instagram.com/maheshsharma4104,
+testimonials_heading,Testimonials,
+footer_quote,Take the first step towards inner peace and transformation.,
+contact_email,,Public contact email
+contact_phone,,Public contact phone (e.g. +91 98765 43210)
+contact_whatsapp,,WhatsApp number in international format without + (e.g. 919876543210)
+copyright,Team Mahesh Sharma. All rights reserved.,Year is added automatically
