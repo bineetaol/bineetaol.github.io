@@ -111,21 +111,18 @@ video plays it in a pop-up using `youtube-nocookie.com`.
 
 ### Images
 
-Image columns take a full `https://` URL or a path inside this repository
-(e.g. `images/mahesh.jpg`; create an `images/` folder). If an image fails to
-load, a placeholder box is shown instead.
-
-> The profile photo currently points to the small thumbnail on Mahesh Sharma's
-> Art of Living profile. It's low resolution, and that server may refuse
-> requests from other websites. Replace `hero_image` and `about_image` with a
-> high-resolution photo stored in this repo.
+Image columns take a full `https://` URL or a path relative to the site root.
+Local photos live in [`data/images/`](data/images/) and are referenced like
+`data/images/IMG-20260908-WA0005.jpg`. `npm test` fails if a CSV points to a
+local image that doesn't exist. If an image fails to load in the browser, a
+placeholder box is shown instead.
 
 ### What's still a placeholder
 
-Everything not available from public sources: hero heading, biography, stats
-numbers, journey and highlight photos, journal entry, YouTube videos, reels,
-testimonials, contact email/phone/WhatsApp, and the YouTube and WhatsApp
-channel links.
+Hero heading, four of the five stats numbers, the journey carousel photos
+(photos with Gurudev), section intros for the journey and highlights sections,
+the journal entry, Instagram reels, testimonials, contact email/phone/WhatsApp
+number, and the official-photos download link.
 
 ---
 

@@ -12,6 +12,10 @@ export const ph = (label) => `<span class="ph" title="Add this in the CSV file">
 /** Text value or placeholder. */
 const text = (v, label) => (isBlank(v) ? ph(label) : esc(v));
 
+/** Split multi-line text into escaped <p> paragraphs (one per non-empty line). */
+export const paragraphs = (v) => String(v).split(/\r?\n/).map((s) => s.trim()).filter(Boolean)
+  .map((s) => `<p>${esc(s)}</p>`).join('');
+
 /** Image or a neutral placeholder box. */
 function img(url, alt, cls = '', label = 'Image placeholder') {
   const src = safeUrl(url);
@@ -72,7 +76,9 @@ export function renderAbout(site) {
       <div class="about-text reveal">
         <p class="eyebrow">About</p>
         <h2>${text(site.about_heading, 'About heading')}</h2>
-        <p>${isBlank(site.about_text) ? ph('Biography placeholder — add about_text in data/site.csv') : esc(site.about_text)}</p>
+        ${isBlank(site.about_text)
+          ? `<p>${ph('Biography placeholder — add about_text in data/site.csv')}</p>`
+          : paragraphs(site.about_text)}
         ${button(site.about_photos_url, 'Download Official Photos', 'btn btn-outline')}
       </div>
     </div>`;

@@ -53,3 +53,8 @@ test('footer builds tel/wa links only when data exists', () => {
   assert.match(empty, /youtube link coming soon/);
   assert.match(empty, /© 2026/);
 });
+
+test('multi-line about_text becomes escaped paragraphs', () => {
+  const html = R.renderAbout({ about_text: 'First <b>line</b>\n\nSecond line' });
+  assert.match(html, /<p>First &lt;b&gt;line&lt;\/b&gt;<\/p><p>Second line<\/p>/);
+});

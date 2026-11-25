@@ -1,15 +1,21 @@
 key,value,notes
 teacher_name,Mahesh Sharma,Shown in nav / hero / footer
-role,Art of Living Teacher,Short title under the name
+role,"Art of Living Teacher · President, Indian Yoga Association",Short title under the name
 page_title,Mahesh Sharma | Art of Living Teacher,Browser tab title
-meta_description,"Upcoming Art of Living programs, meditation and yoga sessions with Mahesh Sharma.",SEO description
+meta_description,"Upcoming Art of Living programs, Sri Sri Yoga classes and meditation with Mahesh Sharma — 30+ years of teaching, President of the Indian Yoga Association.",SEO description
 hero_eyebrow,Meet Mahesh Sharma,Small line above the main heading
 hero_heading,,Main hero heading (placeholder until provided)
-hero_subtitle,Art of Living Teacher,Line under the hero heading
-hero_image,https://artofliving.online/sites/artofliving.online/files/civicrm/custom/teachers/GJ0048.jpeg,Hero / profile photo URL
+hero_subtitle,"Art of Living Teacher · President, Indian Yoga Association",Line under the hero heading
+hero_image,data/images/IMG_20251001_191255_760.jpg,Hero / profile photo URL
 about_heading,About Mahesh Sharma,
-about_text,,Biography paragraph (placeholder until provided)
-about_image,https://artofliving.online/sites/artofliving.online/files/civicrm/custom/teachers/GJ0048.jpeg,
+about_text,"With over 30 years of dedicated experience, Mahesh Bhaiya has been spreading the love, wisdom and vision of Gurudev Sri Sri Ravi Shankar across the globe, touching lives in countries like China, Cambodia, Malaysia and many more.
+
+He currently serves as the President of the Indian Yoga Association. Since the pandemic, he has been consistently conducting Daily Online Sri Sri Yoga Classes, guiding thousands towards better health, peace and inner transformation.
+
+He was honoured as ""Yoga Teacher of the Month"" in the October edition of the Art of Living Foundation Magazine.
+
+A Textile Engineer by profession — once he used to fix clothes, today he beautifully fixes smiles, energies and lives. From the Happiness Program to VTP and TTP, he has transformed countless lives. His service has reached institutions like the Indian Space Research Organisation, the Army, Air Force, Paramilitary Forces, corporates, and youth across rural and urban India.",Biography. Leave a blank line between paragraphs.
+about_image,data/images/IMG-20260908-WA0005.jpg,
 about_photos_url,,Link to downloadable official photos
 stats_heading,The Journey So Far,
 journey_heading,A Journey with the Master,
@@ -21,10 +27,10 @@ courses_text,"Breathing techniques, meditation and practical wisdom for daily li
 courses_source_url,https://www.artofliving.org/in-en/t/mahesh-sharma,Where course data was taken from
 journal_heading,The Inner Journal,
 journal_text,Reflections and wisdom shared by Mahesh Sharma,
-whatsapp_channel_url,,WhatsApp channel link for daily wisdom
+whatsapp_channel_url,https://whatsapp.com/channel/0029VbBpLoGI1rcajEkNjG0U,WhatsApp channel link for daily wisdom
 media_heading,Listen to Mahesh Sharma,
 media_text,"Wisdom talks, meditation insights and timeless teachings.",
-youtube_channel_url,,"YouTube channel link (""View more"" button)"
+youtube_channel_url,https://youtube.com/@maheshsharmaaol,"YouTube channel link (""View more"" button)"
 instagram_profile_url,https://www.instagram.com/maheshsharma4104,
 testimonials_heading,Testimonials,
 footer_quote,Take the first step towards inner peace and transformation.,
